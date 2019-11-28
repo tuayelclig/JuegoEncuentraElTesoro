@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Yelcli Tua y Jesús Escalante">
+    <meta name="description" content="Juego encuentra el tesoro.">
+    <title>Juego Encuentra el Tesoro</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+
+    <h1>Juego Encuentra el Tesoro</h1>
+    <div class="dificultad">
+      <h2>Dificultad</h2>
+      <select class="select" id="dificultad">
+        <option default value="facil">Fácil</option>
+        <option value="medio">Medio</option>
+        <option value="dificil">Difícil</option>
+      </select>
+    </div>
+    <div id="clicks-por-dificultad"></div>
+
+    <img src="treasuremap.png" width="400" height="400" id="mapa" draggable="false">
+
+    <p id="distancia"></p>
+
+    <p id="clicks"></p>
+
+    <h3>By Yelclig Tua & Jesús Escalante</h3>
+    <script src="game.js" charset="utf-8"></script>
+  </body>
+</html>
